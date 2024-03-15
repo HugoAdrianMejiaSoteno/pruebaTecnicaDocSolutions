@@ -35,7 +35,7 @@ const RegisteredUsers = ()=>{
                 const response = await fetch(url, requestOptions);
                 const responseData = await response.json();
                 console.log(responseData);
-                // setUsers()
+                setUsers(responseData.Body)
             } catch (error) {
                 console.error('Error al realizar la solicitud:', error);
             }
