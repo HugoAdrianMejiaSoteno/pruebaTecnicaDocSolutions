@@ -1,0 +1,13 @@
+.homeContainer{
+    background-color: #d0ffff;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleHomeLog{
+    margin-top: 20px;
+}
